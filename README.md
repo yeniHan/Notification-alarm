@@ -9,7 +9,7 @@ Web socket API 기술을 이용한 실시간 공지 알람 어플리케이션 �
 
 [Summary]
 
-1) React 메플리케이션 입니다.
+1) React 어플리케이션 입니다.
 
 2) Web socket API
   서버와 유저간의 실시간 데이터 커뮤니케이션을 위해 web socket 기술이 사용되었습니다. 
