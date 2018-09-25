@@ -1,3 +1,5 @@
+![Alt text](relative/path/to/img.jpg?raw=true "Notification-alarm")
+
 # Notification-alarm
 
 Web socket API 기술을 이용한 실시간 공지 알람 어플리케이션 입니다. 
