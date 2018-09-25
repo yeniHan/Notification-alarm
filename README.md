@@ -19,11 +19,14 @@ Web socket API 기술을 이용한 실시간 공지 알람 어플리케이션 �
   하나의 웹 페이지를 기반으로 실행되는 어플리케이션입니다.
 
 4) 기능 설명
-  (a). 공고 알람 시간 간격
+  
+  (a) 공고 알람 시간 간격
     매 초마다 서버로 부터 새 공고가 전송됩니다.
-  (b). Display
+  
+  (b) Display
     - 화면에는 오직 세개의 최근 전송된 공고만이 보여지게 됩니다.
     - 매 10초마다 화면에 뜬 공고들은 자동적으로 사라지게 됩니다.
+  
   (c) 삭제 기능
     close 버튼을 누름으로써 해당 공고를 삭제할 수 있습니다.
 
@@ -53,11 +56,14 @@ This is a react application which sends notifications to users in real time.
 3) SPA(Single Page application)
 
 4) Functionalities
+  
   a. Notification time interval
     Every one second, from the server, a new notification comes. 
+  
   b. Display
     - Only the lastest 3 notifications are displayed. 
     - Every 10 second, all existing notifications are disappeared automatically.
+  
   c. Delete function
     By clicking the close button of each notification box, a user can remove it.
 
