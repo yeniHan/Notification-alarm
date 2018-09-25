@@ -1,4 +1,4 @@
-![Alt text](relative/path/to/img.jpg?raw=true "Notification-alarm")
+![Alt text](/Notification-alarm.jpg?raw=true "Demo image")
 
 # Notification-alarm
 
