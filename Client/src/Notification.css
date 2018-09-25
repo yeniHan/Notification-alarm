@@ -1,0 +1,19 @@
+.close-bt {
+    margin-left: 420px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.nt-box{
+    margin: 15px;
+    width: 445px;
+    padding-left: 19px;
+    background-color: #dcdcdcd1;
+    border-radius: 10px;
+}
+
+.nt-info{
+    position: relative;
+    top: -13px;
+}

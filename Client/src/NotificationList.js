@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import socketIOClient from "socket.io-client";
 import "./NotificationList.css";
+import Notification from "./Notification";
 
 class NotificationList extends Component {
   constructor() {
@@ -68,7 +69,9 @@ class NotificationList extends Component {
 
   }
 
-  deleteNotification = (id) => {
+  deleteNotification = (e) => {
+    let id = e.target.id;
+    let key;
     let notifications = this.state.notifications;
     console.log("delete");
     for(let key in notifications){
@@ -103,7 +106,7 @@ class NotificationList extends Component {
     }
 
   componentDidMount() {
-    // setInterval(this.remove, 10000);
+    setInterval(this.remove, 10000);
   }
 
   render() {
@@ -123,15 +126,7 @@ class NotificationList extends Component {
 
    
     const notificationList = notifications.map((nt, i) =>
-      <div className="nt-box" key={nt.id} >
-        <i className="close-bt fas fa-window-close" onClick={() => {this.deleteNotification(nt.id)}}></i>
-        <div className="nt-info">
-          <div>{nt.id}</div>        
-          <div>{nt.date}</div>
-          <div>{nt.title}</div>
-          <div>{nt.content}</div>       
-        </div> 
-      </div>
+      <Notification key={nt.id} id={nt.id} date={nt.date} title={nt.title} content={nt.content} deleteNotification={this.deleteNotification}/>
     );
 
     return (
