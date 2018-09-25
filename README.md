@@ -1,11 +1,6 @@
-
 <div align="center">	
-    <img src="PP04_Notification-alarm/Notification-alarm.png" width="400px"</img> 	 
- </div>
- <div align="center">	
-    <img src="Notification-alarm.png" width="600px"</img> 
+    <img src="Notification-alarm.png" width="800px"</img> 
 </div>	
-
 
 
 # Notification-alarm
