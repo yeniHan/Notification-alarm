@@ -1,0 +1,42 @@
+.close-bt {
+    margin-left: 420px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#nts-container{
+    width: 550px;
+    height: 500px;
+    box-shadow: 10px 10px 5px #2a282863;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -51px;
+    left: 43px;
+}
+
+body{
+    background-image: url("windows-start-page.jpg");
+    font-family: 'PT Sans', sans-serif;
+}
+
+#main-title{
+    padding-top: 31px;
+    color: white;
+}
+
+.nt-box{
+    margin: 15px;
+    width: 445px;
+    padding-left: 19px;
+    background-color: #dcdcdcd1;
+    border-radius: 10px;
+}
+
+.nt-info{
+    position: relative;
+    top: -13px;
+}
+
