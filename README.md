@@ -1,6 +1,6 @@
 ![Alt text](/to/Notification-alarm.jpg?raw=true "Demo image")
 <div align="center">
-    <img src="/Notification-alarm.jpg.jpg" width="400px"</img> 
+    <img src="PP04_Notification-alarm/Notification-alarm.png" width="400px"</img> 
 </div>
 
 # Notification-alarm
