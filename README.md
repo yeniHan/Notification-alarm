@@ -62,7 +62,7 @@ This is a react application which sends notifications to users in real time.
   
      b. Display
       - Only the lastest 3 notifications are displayed. 
-      - Every 10 second, all existing notifications are disappeared automatically.
+      - Every 10 seconds, all existing notifications are disappeared automatically.
   
      c. Delete function
        By clicking the close button of each notification box, a user can remove it.
