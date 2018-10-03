@@ -15,10 +15,7 @@ Web socket API 기술을 이용한 실시간 공지 알람 어플리케이션 �
   서버와 유저간의 실시간 데이터 커뮤니케이션을 위해 web socket 기술이 사용되었습니다. 
   이를 위해 Node.js의 "socket.io" 과 "socket.io-client" 라이브러리를 사용하였습니다.
 
-3) SPA(Single Page application)
-  하나의 웹 페이지를 기반으로 실행되는 어플리케이션입니다.
-
-4) 기능 설명
+3) 기능 설명
   
     (a) 공고 알람 시간 간격
        매 초마다 서버로 부터 새 공고가 전송됩니다.
@@ -53,9 +50,7 @@ This is a react application which sends notifications to users in real time.
   For real-time communication between the server and users, web socket API was used. 
   "socket.io" and "socket.io-client" of Node.js libararies were used.
 
-3) SPA(Single Page application)
-
-4) Functionalities
+3) Functionalities
   
      a. Notification time interval
       Every one second, from the server, a new notification comes. 
